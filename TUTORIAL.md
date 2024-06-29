@@ -8,20 +8,20 @@ This tutorial is a practical guide for learning how to flexibly fit atomic model
 
 ### Basic Flexible Fitting I. From open to close
 
-First download, uncompress, and untar the corresponding tutorial file. You will have all the necessary files to follow the tutorial. We recommend to create a new working directory, so all the output files will be stored on it.</p>
-<p>To illustrate the basic procedure and the method performance, we are going to fit the high resolution structure of GroEL monomer in an open state ( <a style="background-color: #dbe5f8;" title="Click here to view in Jmol" href="http://chaconlab.org.previewdns.com/"> <img src="images/sbg/jmol_icon.bmp" height="14" border="0" />1aon</a> , cyan) into a 10Å resolution simulated EM <a href="media/files/1oel.ccp4.gz">closed map</a> (grey) obtained from the closed structure ( <a style="background-color: #dbe5f8;" title="Click here to view in Jmol" href="http://chaconlab.org.previewdns.com/"> <img src="images/sbg/jmol_icon.bmp" height="14" border="0" />1oel</a> , yellow).</p>
+First, download, uncompress, and untar the corresponding tutorial file. You will have all the necessary files to follow the tutorial. We recommend creating a new working directory, so all the output files will be stored on it.</p>
+<p>To illustrate the basic procedure and the method performance, we are going to fit the high-resolution structure of GroEL monomer in an open state (1aon, cyan) into a 10Å resolution simulated EM <a href="media/files/1oel.ccp4.gz">closed map</a> (grey) obtained from the closed structure (1oel, yellow).</p>
 <table border="0" cellspacing="2" cellpadding="0" align="center">
 <tbody>
 <tr>
-<td><a href="images/1aonTub_354.jpg"><img style="border: 0;" title="GroEL open (1aon) (Click to enlarge)" src="images/sbg/imodfit/1aonTub_177.jpg" width="177" height="232" border="0" /> </a></td>
+<td><a href="assets/1aonTub_354.jpg"><img style="border: 0;" title="GroEL open (1aon) (Click to enlarge)" src="assetst/1aonTub_177.jpg" width="177" height="232" border="0" /> </a></td>
 <td align="center" width="200">F I T T I N G<br />(open −−&gt; closed)</td>
-<td><a href="images/1oelTubMapI_354.jpg"><img style="border: 0;" title="10Å resolution simulated EM map  										(from 1oel) (Click to enlarge)" src="images/sbg/imodfit/1oelTubMapI_177.jpg" width="177" border="0" /> </a></td>
+<td><a href="assets/1oelTubMapI_354.jpg"><img style="border: 0;" title="10Å resolution simulated EM map  										(from 1oel) (Click to enlarge)" src="assets/1oelTubMapI_177.jpg" width="177" border="0" /> </a></td>
 </tr>
 </tbody>
 </table>
 <p>To perform the fitting just type at the command prompt:</p>
 <div class="box-note">imodfit 1aon.pdb 1oel.ccp4 10 0 -t</div>
-<p>where 1aon.pdb is the initial structure, 1oel.ccp4 is the target map, 10 is the resolution in Angstroms, and 0 is the density cutoff to take into account map densities. The −t option enables the output of the PDB movie with the fitting trajectory. Here is the screen output:</p>
+<p>where 1aon.pdb is the initial structure, 1oel.ccp4 is the target map, 10 is the resolution in Angstroms, and 0 is the density cutoff to account for map densities. The −t option enables the output of the PDB movie with the fitting trajectory. Here is the screen output:</p>
 <pre>imodfit&gt;
 imodfit&gt; Welcome to iMODFIT v1.28
 imodfit&gt;
@@ -59,7 +59,7 @@ imodfit&gt;
 imodfit&gt; Success! Time elapsed  00h. 04' 04''
 imodfit&gt; Bye!
 </pre>
-<p>The flexibly fitted structure is: <a style="background-color: #dbe5f8;" title="Click here to view in Jmol" href="http://chaconlab.org.previewdns.com/"> <img src="images/sbg/jmol_icon.bmp" height="14" border="0" /> <b>imodfit_fitted.pdb</b></a>.</p>
+<p>The flexibly fitted structure is: <b>imodfit_fitted.pdb</b>.</p>
 <p>iMODFIT also outputs the following files: </p>
 <ul>
 <li><i>imodfit_movie.pdb </i>--&gt; fitting trajectory</li>
@@ -94,7 +94,7 @@ imodfit&gt; Bye!
 </tr>
 </tbody>
 </table>
-<p>For visualizing the results use your favorite program. To play the trajectory movie ( <i>imodfit_movie.pdb</i> ) we recomend <a href="http://www.ks.uiuc.edu/Research/vmd/">VMD</a>; but you can see it in <a style="background-color: #dbe5f8;" title="Click here to view in Jmol" href="http://chaconlab.org.previewdns.com/"> <img src="images/sbg/jmol_icon.bmp" height="14" border="0" /> Jmol</a>. The images and the movie were created using VMD with the POVray rendering engine.</p>
+<p>For visualizing the results use your favorite program. To play the trajectory movie ( <i>imodfit_movie.pdb</i> ) we recomend <a href="http://www.ks.uiuc.edu/Research/vmd/">VMD</a>. The images and the movie were created using VMD with the POVray rendering engine.</p>
 <p>Once you have run iMODFIT you should check for convergence. To this end just plot the score (i.e. 1−correlation) as a function of the iteration number using GNUplot with the <i>imodfit_score.txt</i> file:</p>
 <pre>&gt; gnuplot -persist
 &gt; gnuplot&gt; plot "imodfit_score.txt" u 1:2 w l
@@ -103,7 +103,7 @@ imodfit&gt; Bye!
 <table border="0" cellspacing="2" cellpadding="0" align="center">
 <tbody>
 <tr>
-<td><a href="images/imodfit_score_640.jpg"><img style="border: 0;" title="Score profile  											(Click to Enlarge)" src="images/sbg/imodfit/imodfit_score_320.jpg" width="320" border="0" /></a></td>
+<td><a href="assets/imodfit_score_640.jpg"><img style="border: 0;" title="Score profile  											(Click to Enlarge)" src="assets/imodfit_score_320.jpg" width="320" border="0" /></a></td>
 </tr>
 </tbody>
 </table>
@@ -113,7 +113,7 @@ imodfit&gt; Bye!
 
 ### Basic Flexible Fitting II. From close to open
 
-iMODFIT allows also the fitting from the closed structures as well. To perform this fitting just try the following command:</p>
+iMODFIT allows also the fitting from the closed structures as well. To perform this fitting use the following command:</p>
 ```
 imodfit 1oel.pdb 1aon.ccp4 10 0 -t -o imodfit2
 ```
@@ -121,23 +121,23 @@ imodfit 1oel.pdb 1aon.ccp4 10 0 -t -o imodfit2
 <table style="width: 400px;" border="0" cellspacing="2" cellpadding="0" align="center">
 <tbody>
 <tr>
-<td><video controls="controls" width="320" height="259">
-  <source src="images/video/imodfit/1oelCart_1aonMapFTub.mp4" type="video/mp4" />
-  Your browser does not support HTML5 video.
-  </video></td>
-<td><video controls="controls" width="320" height="259">
-  <source src="images/video/imodfit/1oelCart_1aonMapFTub2.mp4" type="video/mp4" />
-  Your browser does not support HTML5 video.
-  </video></td>
+<td>
+  <video    src="assets/1oelCart_1aonMapFTub.mp4" autoplay="true" loop="true" controls="controls" >
+</video>  
+</td>
+<td>
+  <video    src="assets/1oelCart_1aonMapFTub2.mp4" autoplay="true" loop="true" controls="controls" >
+</video>
+</td>
 </tr>
 </tbody>
 </table>
-<p>The final structure is again very close to the target, i.e. 1.74Å Cα RMSD (corr.=0.985). As in above case, the quality of fitness and the excellent Secondary Structure maintenance are evident. Also, you can observe the trajectory interactively: <a style="background-color: #dbe5f8;" title="Click here to view in Jmol" href="http://chaconlab.org.previewdns.com/"> <img src="images/sbg/jmol_icon.bmp" height="14" border="0" /> Jmol</a>.</p>
+<The final structure is again very close to the target, i.e. 1.74Å Cα RMSD (corr.=0.985). As in the above case, the quality of fitness and the excellent Secondary Structure maintenance are evident. 
 <p> </p>
 
 ### The 52 proteins benchmark
 
-<p>To test our methodology we build a benchmark formed by 52 simulated fitting problems, comprising a wide variety of macromolecular motions. To this end, we downloaded from the molecular motions database <a href="http://molmovdb.org/cgi-bin/browse.cgi">MolMovDB</a> 26 different protein pairs with displacements greater than 2Å Cα RMSD and sizes ranging from 100 to 1000 amino acids. Only those structures with less than 3% Ramachandran outliers (<a href="http://molprobity.biochem.duke.edu">Molprobity</a>) and without broken chains and missing atoms were admitted. The average displacement was 6.9Å with a standard deviation of 3.9Å. Note that each open/closed protein pair represents two different fitting problems, i.e. from open to closed and vice versa. It can be downloaded either from the iMODFIT "Install" page or directly from <a class="dwnld" href="downloads/Tools/iMODFIT/bench52.tar.gz">here</a>.</p>
+<p>To test our methodology we build a benchmark formed by 52 simulated fitting problems, comprising a wide variety of macromolecular motions. To this end, we downloaded from the molecular motions database <a href="http://molmovdb.org/cgi-bin/browse.cgi">MolMovDB</a> 26 different protein pairs with displacements greater than 2Å Cα RMSD and sizes ranging from 100 to 1000 amino acids. Only those structures with less than 3% Ramachandran outliers (<a href="http://molprobity.biochem.duke.edu">Molprobity</a>) and without broken chains and missing atoms were admitted. The average displacement was 6.9Å with a standard deviation of 3.9Å. Note that each open/closed protein pair represents two different fitting problems, i.e. from open to closed and vice versa. It can be downloaded either from the iMODFIT "Install" page or directly from <a  href="https://chaconlab.org/downloads/Tools/iMODFIT/bench52.tar.gz">here</a>.</p>
 <table class="text" border="0" cellspacing="0" cellpadding="6" align="center">
 <tbody>
 <tr>
