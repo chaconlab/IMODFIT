@@ -85,11 +85,13 @@ imodfit&gt; Bye!
 <table border="0" cellspacing="0" cellpadding="0" align="center">
 <tbody>
 <tr>
+    
+
 <td>
-    <video    src="https://chaconlab.org/images/video/imodfit/1aonCart_1oelMapFTub.mp4" autoplay="true" loop="true" controls="controls" >
+    <video    src="https://github.com/chaconlab/IMODFIT/assets/19269061/f9bec309-77d1-4237-9fb8-db1e3681adbd" autoplay="true" loop="true" controls="controls" >
 </td>
 <td>
-      <video    src="https://chaconlab.org/images/video/imodfit/1aonCart_1oelMapFTub2.mp4" autoplay="true" loop="true" controls="controls" >
+      <video    src="https://github.com/chaconlab/IMODFIT/assets/19269061/2b6919fa-834f-4dde-8fd9-32ca834ca1e9" autoplay="true" loop="true" controls="controls" >
 </td>
 </tr>
 </tbody>
@@ -118,15 +120,17 @@ iMODFIT allows also the fitting from the closed structures as well. To perform t
 imodfit 1oel.pdb 1aon.ccp4 10 0 -t -o imodfit2
 ```
 <p>Front and rear views of the fitting results are shown in the movies below. The initial closed structure, 1oel, is shown in cyan, the target open one, 1aon, in yellow, and its corresponding <a href="media/files/1aon.ccp4.gz">open map</a> in grey. The −o option is added to avoid overwriting previous results.</p>
+
+
 <table style="width: 400px;" border="0" cellspacing="2" cellpadding="0" align="center">
 <tbody>
 <tr>
 <td>
-  <video    src="assets/1oelCart_1aonMapFTub.mp4" autoplay="true" loop="true" controls="controls" >
+  <video    src="https://github.com/chaconlab/IMODFIT/assets/19269061/6c746ab5-5fdb-47c5-a7c6-896080becf3c" autoplay="true" loop="true" controls="controls" >
 </video>  
 </td>
 <td>
-  <video    src="assets/1oelCart_1aonMapFTub2.mp4" autoplay="true" loop="true" controls="controls" >
+  <video    src="https://github.com/chaconlab/IMODFIT/assets/19269061/1d4e3696-9b31-44b9-8b95-0988be29d9db" autoplay="true" loop="true" controls="controls" >
 </video>
 </td>
 </tr>
