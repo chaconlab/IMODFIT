@@ -70,16 +70,16 @@ imodfit&gt; Bye!
 <table style="width: 400px;" border="0" cellspacing="2" cellpadding="0" align="center">
 <tbody>
 <tr>
-<td><a href="assets/1aonTubMapFTub_initial_354.jpg"><img style="border: 0;" title="Initial Model (Click to enlarge)" src="images/sbg/imodfit/1aonTubMapFTub_initial_177.jpg" height="116" border="0" /></a></td>
-<td><a href="assets/1aonTubMapFTub_05_354.jpg"><img style="border: 0;" title="Intermediate Model (Click to enlarge)" src="images/sbg/imodfit/1aonTubMapFTub_05_177.jpg" height="116" border="0" /></a></td>
-<td><a href="assets/1aonTubMapFTub_18_354.jpg"><img style="border: 0;" title="Intermediate Model (Click to enlarge)" src="images/sbg/imodfit/1aonTubMapFTub_18_177.jpg" height="116" border="0" /></a></td>
-<td><a href="assets/1aonTubMapFTub_31_354.jpg"><img style="border: 0;" title="Intermediate Model (Click to enlarge)" src="images/sbg/imodfit/1aonTubMapFTub_31_177.jpg" height="116" border="0" /></a></td>
-<td><a href="assets/1aonTubMapFTub_40_354.jpg"><img style="border: 0;" title="Intermediate Model (Click to enlarge)" src="images/sbg/imodfit/1aonTubMapFTub_40_177.jpg" height="116" border="0" /></a></td>
-<td><a href="assets/1aonTubMapFTub_final_354.jpg"><img style="border: 0;" title="Final Fitted Model (Click to enlarge)" src="images/sbg/imodfit/1aonTubMapFTub_final_177.jpg" height="116" border="0" /></a></td>
+<td><a href="assets/1aonTubMapFTub_initial_354.jpg"><img style="border: 0;" title="Initial Model (Click to enlarge)" src="assets/1aonTubMapFTub_initial_177.jpg" height="116" border="0" /></a></td>
+<td><a href="assets/1aonTubMapFTub_05_354.jpg"><img style="border: 0;" title="Intermediate Model (Click to enlarge)" src="assets/1aonTubMapFTub_05_177.jpg" height="116" border="0" /></a></td>
+<td><a href="assets/1aonTubMapFTub_18_354.jpg"><img style="border: 0;" title="Intermediate Model (Click to enlarge)" src="assets/imodfit/1aonTubMapFTub_18_177.jpg" height="116" border="0" /></a></td>
+<td><a href="assets/1aonTubMapFTub_31_354.jpg"><img style="border: 0;" title="Intermediate Model (Click to enlarge)" src="assets/1aonTubMapFTub_31_177.jpg" height="116" border="0" /></a></td>
+<td><a href="assets/1aonTubMapFTub_40_354.jpg"><img style="border: 0;" title="Intermediate Model (Click to enlarge)" src="assets/imodfit/1aonTubMapFTub_40_177.jpg" height="116" border="0" /></a></td>
+<td><a href="assets/1aonTubMapFTub_final_354.jpg"><img style="border: 0;" title="Final Fitted Model (Click to enlarge)" src="assets/imodfit/1aonTubMapFTub_final_177.jpg" height="116" border="0" /></a></td>
 </tr>
 </tbody>
 </table>
-<p>The fitting result is only 1.78Å Cα RMSD from the target structure, and the final correlation was high: 0.982. The quality of fitness and the excellent secondary structure maintenance can be appreciated in the flash movies below (front and rear views in left and right, respectively). Note that in none case any secondary structure constraint was used.</p>
+<p>The fitting result is only 1.78Å Cα RMSD from the target structure, and the final correlation was high: 0.982. The quality of fitness and the excellent secondary structure maintenance can be appreciated in the flash movies below (front and rear views on the left and right, respectively). Note that no secondary structure constraint was used.</p>
 <table border="0" cellspacing="0" cellpadding="0" align="center">
 <tbody>
 <tr>
@@ -115,7 +115,7 @@ iMODFIT allows also the fitting from the closed structures as well. To perform t
 ```
 imodfit 1oel.pdb 1aon.ccp4 10 0 -t -o imodfit2
 ```
-<p>Front and rear views of the fitting results are shown in the flash movies below. The initial closed structure, 1oel, is shown in cyan, the target open one, 1aon, in yellow, and its corresponding <a href="media/files/1aon.ccp4.gz">open map</a> in grey. The −o option is added to avoid overwriting previous results.</p>
+<p>Front and rear views of the fitting results are shown in the movies below. The initial closed structure, 1oel, is shown in cyan, the target open one, 1aon, in yellow, and its corresponding <a href="media/files/1aon.ccp4.gz">open map</a> in grey. The −o option is added to avoid overwriting previous results.</p>
 <table style="width: 400px;" border="0" cellspacing="2" cellpadding="0" align="center">
 <tbody>
 <tr>
