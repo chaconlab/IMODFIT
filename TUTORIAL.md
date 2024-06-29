@@ -87,8 +87,12 @@ imodfit&gt; Bye!
 <tr>
     
 
+
+
+
+
 <td>
-    <video    src="https://github.com/chaconlab/IMODFIT/assets/19269061/f9bec309-77d1-4237-9fb8-db1e3681adbd" autoplay="true" loop="true" controls="controls" >
+    <video    src="https://github.com/chaconlab/IMODFIT/assets/19269061/2a4b52a1-03f8-4760-a9cd-ffe2b25a8bbd" autoplay="true" loop="true" controls="controls" >
 </td>
 <td>
       <video    src="https://github.com/chaconlab/IMODFIT/assets/19269061/1ef2c4dd-9401-4eb9-bb82-dafeffcda41f" autoplay="true" loop="true" controls="controls" >
@@ -130,7 +134,7 @@ imodfit 1oel.pdb 1aon.ccp4 10 0 -t -o imodfit2
 </video>  
 </td>
 <td>
-  <video    src="https://github.com/chaconlab/IMODFIT/assets/19269061/2b6919fa-834f-4dde-8fd9-32ca834ca1e9" autoplay="true" loop="true" controls="controls" >
+  <video    src="https://github.com/chaconlab/IMODFIT/assets/19269061/c00816e5-9bf3-4ba4-b172-98a42d106ea1" autoplay="true" loop="true" controls="controls" >
 </video>
 </td>
 </tr>
