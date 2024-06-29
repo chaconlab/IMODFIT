@@ -1,3 +1,5 @@
+## Tutorial
+
 This tutorial is a practical guide for learning how to flexibly fit atomic models into low/medium resolution EM maps with IMODfit. We included some working examples with simple instructions and a benchmark setd. This tutorial is divided into three parts:</p>
 <ul>
 <li><a href="#Basic_fitting">Basic Flexible Fitting I. From open to close</a></li>
