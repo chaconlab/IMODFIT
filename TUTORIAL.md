@@ -130,7 +130,7 @@ imodfit 1oel.pdb 1aon.ccp4 10 0 -t -o imodfit2
 </video>  
 </td>
 <td>
-  <video    src="https://github.com/chaconlab/IMODFIT/assets/19269061/1d4e3696-9b31-44b9-8b95-0988be29d9db" autoplay="true" loop="true" controls="controls" >
+  <video    src="https://github.com/chaconlab/IMODFIT/assets/19269061/1ef2c4dd-9401-4eb9-bb82-dafeffcda41f" autoplay="true" loop="true" controls="controls" >
 </video>
 </td>
 </tr>
