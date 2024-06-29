@@ -13,7 +13,7 @@ First, download, uncompress, and untar the corresponding tutorial file. You will
 <table border="0" cellspacing="2" cellpadding="0" align="center">
 <tbody>
 <tr>
-<td><a href="assets/1aonTub_354.jpg"><img style="border: 0;" title="GroEL open (1aon) (Click to enlarge)" src="assetst/1aonTub_177.jpg" width="177" height="232" border="0" /> </a></td>
+<td><a href="assets/1aonTub_354.jpg"><img style="border: 0;" title="GroEL open (1aon) (Click to enlarge)" src="assets/1aonTub_177.jpg" width="177" height="232" border="0" /> </a></td>
 <td align="center" width="200">F I T T I N G<br />(open −−&gt; closed)</td>
 <td><a href="assets/1oelTubMapI_354.jpg"><img style="border: 0;" title="10Å resolution simulated EM map  										(from 1oel) (Click to enlarge)" src="assets/1oelTubMapI_177.jpg" width="177" border="0" /> </a></td>
 </tr>
@@ -70,12 +70,12 @@ imodfit&gt; Bye!
 <table style="width: 400px;" border="0" cellspacing="2" cellpadding="0" align="center">
 <tbody>
 <tr>
-<td><a href="images/sbg/imodfit/1aonTubMapFTub_initial_354.jpg"><img style="border: 0;" title="Initial Model (Click to enlarge)" src="images/sbg/imodfit/1aonTubMapFTub_initial_177.jpg" height="116" border="0" /></a></td>
-<td><a href="images/sbg/imodfit/1aonTubMapFTub_05_354.jpg"><img style="border: 0;" title="Intermediate Model (Click to enlarge)" src="images/sbg/imodfit/1aonTubMapFTub_05_177.jpg" height="116" border="0" /></a></td>
-<td><a href="images/sbg/imodfit/1aonTubMapFTub_18_354.jpg"><img style="border: 0;" title="Intermediate Model (Click to enlarge)" src="images/sbg/imodfit/1aonTubMapFTub_18_177.jpg" height="116" border="0" /></a></td>
-<td><a href="images/sbg/imodfit/1aonTubMapFTub_31_354.jpg"><img style="border: 0;" title="Intermediate Model (Click to enlarge)" src="images/sbg/imodfit/1aonTubMapFTub_31_177.jpg" height="116" border="0" /></a></td>
-<td><a href="images/sbg/imodfit/1aonTubMapFTub_40_354.jpg"><img style="border: 0;" title="Intermediate Model (Click to enlarge)" src="images/sbg/imodfit/1aonTubMapFTub_40_177.jpg" height="116" border="0" /></a></td>
-<td><a href="images/sbg/imodfit/1aonTubMapFTub_final_354.jpg"><img style="border: 0;" title="Final Fitted Model (Click to enlarge)" src="images/sbg/imodfit/1aonTubMapFTub_final_177.jpg" height="116" border="0" /></a></td>
+<td><a href="assets/1aonTubMapFTub_initial_354.jpg"><img style="border: 0;" title="Initial Model (Click to enlarge)" src="images/sbg/imodfit/1aonTubMapFTub_initial_177.jpg" height="116" border="0" /></a></td>
+<td><a href="assets/1aonTubMapFTub_05_354.jpg"><img style="border: 0;" title="Intermediate Model (Click to enlarge)" src="images/sbg/imodfit/1aonTubMapFTub_05_177.jpg" height="116" border="0" /></a></td>
+<td><a href="assets/1aonTubMapFTub_18_354.jpg"><img style="border: 0;" title="Intermediate Model (Click to enlarge)" src="images/sbg/imodfit/1aonTubMapFTub_18_177.jpg" height="116" border="0" /></a></td>
+<td><a href="assets/1aonTubMapFTub_31_354.jpg"><img style="border: 0;" title="Intermediate Model (Click to enlarge)" src="images/sbg/imodfit/1aonTubMapFTub_31_177.jpg" height="116" border="0" /></a></td>
+<td><a href="assets/1aonTubMapFTub_40_354.jpg"><img style="border: 0;" title="Intermediate Model (Click to enlarge)" src="images/sbg/imodfit/1aonTubMapFTub_40_177.jpg" height="116" border="0" /></a></td>
+<td><a href="assets/1aonTubMapFTub_final_354.jpg"><img style="border: 0;" title="Final Fitted Model (Click to enlarge)" src="images/sbg/imodfit/1aonTubMapFTub_final_177.jpg" height="116" border="0" /></a></td>
 </tr>
 </tbody>
 </table>
@@ -83,14 +83,12 @@ imodfit&gt; Bye!
 <table border="0" cellspacing="0" cellpadding="0" align="center">
 <tbody>
 <tr>
-<td><video controls="controls" width="320" height="259">
-  <source src="images/video/imodfit/1aonCart_1oelMapFTub.mp4" type="video/mp4" />
-  Your browser does not support HTML5 video.
-  </video></td>
-<td><video controls="controls" width="320" height="259">
-  <source src="images/video/imodfit/1aonCart_1oelMapFTub2.mp4" type="video/mp4" />
-  Your browser does not support HTML5 video.
-  </video></td>
+<td>
+    <video    src="https://chaconlab.org/images/video/imodfit/1aonCart_1oelMapFTub.mp4" autoplay="true" loop="true" controls="controls" >
+</td>
+<td>
+      <video    src="https://chaconlab.org/images/video/imodfit/1aonCart_1oelMapFTub2.mp4" autoplay="true" loop="true" controls="controls" >
+</td>
 </tr>
 </tbody>
 </table>
