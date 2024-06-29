@@ -72,10 +72,10 @@ imodfit&gt; Bye!
 <tr>
 <td><a href="assets/1aonTubMapFTub_initial_354.jpg"><img style="border: 0;" title="Initial Model (Click to enlarge)" src="assets/1aonTubMapFTub_initial_177.jpg" height="116" border="0" /></a></td>
 <td><a href="assets/1aonTubMapFTub_05_354.jpg"><img style="border: 0;" title="Intermediate Model (Click to enlarge)" src="assets/1aonTubMapFTub_05_177.jpg" height="116" border="0" /></a></td>
-<td><a href="assets/1aonTubMapFTub_18_354.jpg"><img style="border: 0;" title="Intermediate Model (Click to enlarge)" src="assets/imodfit/1aonTubMapFTub_18_177.jpg" height="116" border="0" /></a></td>
+<td><a href="assets/1aonTubMapFTub_18_354.jpg"><img style="border: 0;" title="Intermediate Model (Click to enlarge)" src="assets/1aonTubMapFTub_18_177.jpg" height="116" border="0" /></a></td>
 <td><a href="assets/1aonTubMapFTub_31_354.jpg"><img style="border: 0;" title="Intermediate Model (Click to enlarge)" src="assets/1aonTubMapFTub_31_177.jpg" height="116" border="0" /></a></td>
-<td><a href="assets/1aonTubMapFTub_40_354.jpg"><img style="border: 0;" title="Intermediate Model (Click to enlarge)" src="assets/imodfit/1aonTubMapFTub_40_177.jpg" height="116" border="0" /></a></td>
-<td><a href="assets/1aonTubMapFTub_final_354.jpg"><img style="border: 0;" title="Final Fitted Model (Click to enlarge)" src="assets/imodfit/1aonTubMapFTub_final_177.jpg" height="116" border="0" /></a></td>
+<td><a href="assets/1aonTubMapFTub_40_354.jpg"><img style="border: 0;" title="Intermediate Model (Click to enlarge)" src="assets/1aonTubMapFTub_40_177.jpg" height="116" border="0" /></a></td>
+<td><a href="assets/1aonTubMapFTub_final_354.jpg"><img style="border: 0;" title="Final Fitted Model (Click to enlarge)" src="assets/1aonTubMapFTub_final_177.jpg" height="116" border="0" /></a></td>
 </tr>
 </tbody>
 </table>
